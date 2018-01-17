@@ -1,0 +1,39 @@
+{
+  "name": "send-mail-using-sendgrid",
+  "version": "1.0.0",
+  "description": "Mechanism to send email using node.js and sendgrid's API (Full working Project)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodejsera/nodejsera-projects.git"
+  },
+  "keywords": [
+    "nodejsera",
+    "nodejs",
+    "node",
+    "email",
+    "using",
+    "nodejs",
+    "sendgrid",
+    "sending",
+    "email",
+    "using",
+    "sendgrid",
+    "and",
+    "nodejs"
+  ],
+  "author": "@nodejsera , @rajatgarian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodejsera/nodejsera-projects/issues"
+  },
+  "homepage": "https://github.com/nodejsera/nodejsera-projects#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.2.0",
+    "express": "^4.16.2"
+  }
+}
