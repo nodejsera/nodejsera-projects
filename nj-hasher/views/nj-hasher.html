@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Nodejsera | Nj-hasher | Hashing module by nodejsera </title>
+        <link rel="stylesheet" type="text/css" href="style.css" />  
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    </head>
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<br>
+				<br>
+				<div class="col-md-3">
+					<!-- Empty DIV -->
+				</div>
+				<div class="col-md-6 boundary">
+					
+					<br>
+						<h2>nj-hasher</h2>
+						<h3> Hash the content in any of the given hashing algorithms. </h3>
+					<br>
+				
+					<form action="/hash" method="post">
+						
+						<div class="field">
+							Content : <input type="text" id="content" name="content" placeholder="Enter content to be hashed">
+						</div>
+				
+						<div class="field">
+							Algorithm :
+							<select name="algorithm">
+								<option value="md5">MD5</option>
+								<option value="whirlpool">whirlpool</option>
+								<option value="sha1">sha1</option>
+								<option value="sha224">sha224</option>
+								<option value="sha256">sha256</option>
+								<option value="sha384">sha384</option>
+								<option value="sha512">sha512</option>
+								<option value="ripemd160">ripemd160</option>
+							</select>			
+						</div>
+			
+						<div class="field">
+							<input type="submit" value="Calculate HASH">
+						</div>
+						<br>
+						<br>
+						
+					</form>
+				</div>
+				<div class="col-md-3">
+					<!-- Empty DIV -->
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

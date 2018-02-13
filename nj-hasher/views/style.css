@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Gruppo');
+
+.boundary{
+	font-family: 'Fredoka One', cursive;
+	font-size: 24px;
+	border: 5px solid #666666;
+    border-radius: 5px;
+	padding: 10px;
+	color : #002699;
+}
+.field{
+	color : #666666;
+}
+h2,h3{
+	Text-align: center;
+	font-size: 30px;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	font-family: 'Gruppo', cursive;
+}
+
+
+select:focus {
+    width: 100%;
+}
+
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	font-family: 'Gruppo', cursive;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	font-weight:bolder;
+	font-family: 'Gruppo', cursive;
+}
+input[type=submit]:focus {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	font-weight:bolder;
+	font-family: 'Gruppo', cursive;
+}
+
+.output{
+	font-family: 'Fredoka One', cursive;
+	text-align: center;
+	font-size : 24px;
+
+}
+
+.codee{
+	font-family: 'Gruppo', cursive;
+	font-size : 30px;
+}
+
+

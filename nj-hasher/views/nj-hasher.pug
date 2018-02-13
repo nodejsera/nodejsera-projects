@@ -1,0 +1,39 @@
+doctype html
+html
+  head
+    title  Nodejsera | Nj-hasher | Hashing module by nodejsera 
+    link(rel='stylesheet', type='text/css', href='style.css')
+    link(rel='stylesheet', type='text/css', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+  body
+    .container
+      .row
+        br
+        br
+        .col-md-3
+          // Empty DIV
+        .col-md-6.boundary
+          br
+          h2 nj-hasher
+          h3  Hash the content in any of the given hashing algorithms. 
+          br
+          form(action='/hash', method='post')
+            .field
+              | Content : 
+              input#content(type='text', name='content', placeholder='Enter content to be hashed')
+            .field
+              | Algorithm :
+              select(name='algorithm')
+                option(value='md5') MD5
+                option(value='whirlpool') whirlpool
+                option(value='sha1') sha1
+                option(value='sha224') sha224
+                option(value='sha256') sha256
+                option(value='sha384') sha384
+                option(value='sha512') sha512
+                option(value='ripemd160') ripemd160
+            .field
+              input(type='submit', value='Calculate HASH')
+            br
+            br
+        .col-md-3
+          // Empty DIV

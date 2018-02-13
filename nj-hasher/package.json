@@ -1,0 +1,22 @@
+{
+  "name": "nj-hasher",
+  "version": "1.0.0",
+  "description": "Hashing the content provided by the used",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "hash",
+    "md5",
+    "whirlpool",
+    "nodejsera"
+  ],
+  "author": "@rajatgarian, @nodejsera",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
